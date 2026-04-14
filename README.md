@@ -2,7 +2,7 @@
 
 A robust Node.js/Express API for managing tasks, built as part of a technical assignment. This version has been significantly enhanced for production readiness, featuring 100% test coverage, input sanitization, security protection for internal fields, and high-concurrency performance validation.
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Prerequisites
 - Node.js (v14+)
@@ -84,4 +84,4 @@ Detailed bug reports and fix logic can be found in [BUGS.md](./BUGS.md). Key fix
 ## 📧 Submission Info
 **Author:** Navin Kumar
 **Assignment:** Take-Home Assignment: The Untested API
-**Contact:** hr@underpinservices.in / taroo@underpinservices.org
+
