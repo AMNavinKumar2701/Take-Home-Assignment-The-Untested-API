@@ -6,7 +6,7 @@ const app = express();
 app.use(express.json());
 
 app.get('/', (req, res) => {
-  res.status(200).send('Welcome to the Task Manager API');
+  res.status(200).send('<h1>Welcome to the Task Manager API</h1>');
 });
 
 app.use('/tasks', taskRoutes);
