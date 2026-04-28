@@ -1,6 +1,6 @@
 A robust Node.js/Express API for managing tasks, built as part of a technical assignment. This version has been significantly enhanced for production readiness, featuring 100% test coverage, input sanitization, security protection for internal fields, and high-concurrency performance validation.
 
-**Live Project URL:** [https://take-home-assignment-the-untested-api-hxf6.onrender.com]([https://take-home-assignment-the-untested-api-hxf6.onrender.com](https://take-home-assignment-the-untested-api-jjhm.onrender.com))
+**Live Project URL:** [https://take-home-assignment-the-untested-api-jjhm.onrender.com](https://take-home-assignment-the-untested-api-jjhm.onrender.com)
 
 ##  Quick Start
 
@@ -59,7 +59,7 @@ npm run coverage # test run with full coverage report
 
 You can test the production API using the examples below. 
 
-**Base URL:** `https://take-home-assignment-the-untested-api-hxf6.onrender.com`
+**Base URL:** `https://take-home-assignment-the-untested-api-jjhm.onrender.com`
 
 ### 1. Create a Task
 - **Method:** `POST`
@@ -75,7 +75,7 @@ You can test the production API using the examples below.
   ```
 - **cURL Command:**
   ```bash
-  curl -X POST https://take-home-assignment-the-untested-api-hxf6.onrender.com/tasks \
+  curl -X POST https://take-home-assignment-the-untested-api-jjhm.onrender.com/tasks \
        -H "Content-Type: application/json" \
        -d '{"title": "Build something great", "priority": "high"}'
   ```
@@ -85,7 +85,7 @@ You can test the production API using the examples below.
 - **Path:** `/tasks?page=1&limit=10`
 - **cURL Command:**
   ```bash
-  curl "https://take-home-assignment-the-untested-api-hxf6.onrender.com/tasks?status=todo&page=1&limit=5"
+  curl "https://take-home-assignment-the-untested-api-jjhm.onrender.com/tasks?status=todo&page=1&limit=5"
   ```
 
 ### 3. Assign a Task
@@ -97,7 +97,7 @@ You can test the production API using the examples below.
   ```
 - **cURL Command:**
   ```bash
-  curl -X PATCH https://take-home-assignment-the-untested-api-hxf6.onrender.com/tasks/{id}/assign \
+  curl -X PATCH https://take-home-assignment-the-untested-api-jjhm.onrender.com/tasks/{id}/assign \
        -H "Content-Type: application/json" \
        -d '{"assignee": "Navin Kumar"}'
   ```
@@ -107,7 +107,7 @@ You can test the production API using the examples below.
 - **Path:** `/tasks/{id}/complete`
 - **cURL Command:**
   ```bash
-  curl -X PATCH https://take-home-assignment-the-untested-api-hxf6.onrender.com/tasks/{id}/complete
+  curl -X PATCH https://take-home-assignment-the-untested-api-jjhm.onrender.com/tasks/{id}/complete
   ```
 
 ### 5. Get Statistics
@@ -115,7 +115,7 @@ You can test the production API using the examples below.
 - **Path:** `/tasks/stats`
 - **cURL Command:**
   ```bash
-  curl https://take-home-assignment-the-untested-api-hxf6.onrender.com/tasks/stats
+  curl https://take-home-assignment-the-untested-api-jjhm.onrender.com/tasks/stats
   ```
 
 ---
