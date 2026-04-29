@@ -12,6 +12,7 @@
     "benchmark:write": "node scripts/benchmarkWrite.js"
   },
   "dependencies": {
+    "cors": "^2.8.6",
     "express": "^4.18.2",
     "uuid": "^9.0.0"
   },
